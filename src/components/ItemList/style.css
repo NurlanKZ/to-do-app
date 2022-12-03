@@ -1,0 +1,23 @@
+.itemlist {
+    display: flex;
+    flex-direction: column;
+    margin-top: 64px;
+    gap: 16px;
+}
+
+.category {
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 28px;
+}
+
+.horizontalDivider {
+    height: 2px;
+    width: auto;
+    background: #151517;
+    opacity: 0.2;
+    margin-top: 8px;
+    margin-bottom: 8px;
+}

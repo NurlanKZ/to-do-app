@@ -1,0 +1,29 @@
+.footer {
+    display: flex;
+    flex-direction: row;
+    align-items: flex-end;
+    justify-content: space-between;
+    
+    height: 294px;
+}
+
+.footer button {
+    border: 0px;
+    background-color: #F1F1F1;
+}
+
+.credits {
+    font-family: 'Inter';
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 18px;
+
+    opacity: 0.5;
+}
+
+.made {
+    font-family: 'Inter';
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 18px;
+}

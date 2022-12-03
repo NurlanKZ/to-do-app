@@ -1,0 +1,36 @@
+.menu {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: flex-end;
+    height: 142px;
+}
+
+.folders {
+    display: flex;
+    gap: 16px;
+    width: 289px;
+}
+
+.activeFolder {
+    background: rgba(8, 30, 52, 0.42);
+    color: #FFFFFF;
+}
+
+.passiveFolder {
+    background: linear-gradient(0deg, rgba(8, 30, 52, 0.05), rgba(8, 30, 52, 0.05)), #F0F0F0;
+}
+
+.folders button {
+    width: 87px;
+    height: 40px;
+
+    border: 0px;
+    border-radius: 100px;
+
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 18px;
+}
